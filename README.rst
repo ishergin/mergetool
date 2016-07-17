@@ -5,7 +5,7 @@
 Запускать нужно в каталоге с репозиторием, мерж со squash определяет по коммитному сообщению =(
 Не умеет разрешать конфликты
 
-    usage: mergetool.py [-h] [-d] SRC_BRANCH DST_BRANCH
+    usage: gitmerge [-h] [-d] SRC_BRANCH DST_BRANCH
 
     Git merge branch tool
 
