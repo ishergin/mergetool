@@ -1,8 +1,6 @@
-from distutils.core import setup
 from os.path import join, dirname
+from setuptools import setup
 import sys
-
-install_requires = ['argparse', 'gitpython']
 
 setup(
     name='mergetool',
@@ -10,6 +8,7 @@ setup(
     scripts=['gitmerge'],
     packages=['mergetool'],
     long_description=open(join(dirname(__file__), 'README.rst')).read(),
+    install_requires=['argparse', 'gitpython'],
     license='',
     author='Igor Shergin',
     author_email='ishergin@gmail.com',
