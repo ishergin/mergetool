@@ -2,12 +2,12 @@ from distutils.core import setup
 from os.path import join, dirname
 import sys
 
-install_requires = ['argparse', 'git']
+install_requires = ['argparse', 'gitpython']
 
 setup(
     name='mergetool',
     version='0.1',
-    scripts=['bin/mergetool', ],
+    scripts=['gitmerge'],
     packages=['mergetool'],
     long_description=open(join(dirname(__file__), 'README.rst')).read(),
     license='',
