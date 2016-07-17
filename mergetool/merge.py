@@ -19,7 +19,7 @@ def merge(args):
     :return:
     """
 
-    repo = Repository('/Users/ishergin/tmp/wrike')
+    repo = Repository('.')
 
     try:
         commit = repo.branch_is_merged(args.SRC_BRANCH, args.DST_BRANCH)
